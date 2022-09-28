@@ -1,0 +1,22 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    padding: 0 50px;
+    margin: 100px 0;
+}
+
+.review-container {
+    background-color: #fbd397;
+}
+
+.order {
+    font-family: 'Lato';
+    font-size: 25px;
+    line-height: 30px;
+}
